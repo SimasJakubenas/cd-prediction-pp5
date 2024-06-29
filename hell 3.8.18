@@ -1,0 +1,83 @@
+[33mcommit 7277c7d5653bed44d727868d9f5b31c486f82770[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Sat Jun 29 11:50:04 2024 +0000
+
+    ADD: Hyper Parameter optimisation
+
+[33mcommit 557ec292780c8f9f1a2855b6f0402179a633181b[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Sat Jun 29 10:14:50 2024 +0000
+
+    ADD: ML pipelines
+
+[33mcommit 6dbc79cfda0b44f2af2a394ca4344f67a494674d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Fri Jun 28 08:28:46 2024 +0000
+
+    ADD: conclusions to Feature Engineering Notebook
+
+[33mcommit 2a71a0659ea4c3220abc356a3317a1d3e911e078[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Fri Jun 28 07:58:20 2024 +0000
+
+    FEAT: perform data transformations
+
+[33mcommit 4c71225db11a5b04c5d53328ca679f09c29628f9[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Fri Jun 28 07:01:22 2024 +0000
+
+    ADD: feature engineering prep
+
+[33mcommit 4c74d03bef1e59e0469880c584c5120e7cc4be1d[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Wed Jun 26 19:40:11 2024 +0000
+
+    FEAT: Split data and push to repo
+
+[33mcommit 1ce3a67a9761954b141e2b41d2163222d13b471c[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Wed Jun 26 19:02:55 2024 +0000
+
+    FEAT: dealing with missing data
+
+[33mcommit 6cdb9ee86cbf8679760fd431d96a4e2f7bcc8619[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Wed Jun 26 17:13:28 2024 +0000
+
+    ADD: correlation and PPS analysis to Data Cleaning Notebook
+
+[33mcommit 4e400040451679b130fbce6878ee31ec5b9fa7d4[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Wed Jun 26 07:19:22 2024 +0000
+
+    ADD: correlation study to Heart Disease Study notebook
+
+[33mcommit 6252c261eb77571521cd8fda40093fadac4252aa[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Fri Jun 21 08:08:07 2024 +0000
+
+    ADD: Data Exploration to Heart Disease Study notebook
+
+[33mcommit 48a8f4e7cfe6fb847eaf1db46e2e554fd2c71e5f[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Thu Jun 20 07:12:52 2024 +0000
+
+    FEAT: add content to Data Collection jupyter notebook and save outputs
+
+[33mcommit 5eb2ddfd514a96288d94a7a8e1ea1497565ffcde[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Wed Jun 19 21:04:42 2024 +0000
+
+    DOCS: Add Initial README draft
+
+[33mcommit a269d367cd3e1533f096b2f66b210a3eb0a77c13[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Wed Jun 19 18:58:13 2024 +0000
+
+    Initial commit
+
+[33mcommit 3da0417ff92fb9ee5a36bdf0447fe1e556e15668[m
+Author: Simas Jakubenas <sjakubenas@gmail.com>
+Date:   Wed Jun 19 19:29:20 2024 +0100
+
+    Initial commit
