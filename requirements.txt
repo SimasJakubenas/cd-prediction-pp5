@@ -11,3 +11,5 @@ ppscore==1.2.0
 ydata-profiling==4.4.0
 ipywidgets==8.0.2
 feature-engine==1.0.2
+xgboost==1.2.1
+imbalanced-learn==0.8.0
