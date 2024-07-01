@@ -19,7 +19,7 @@ def page2_heart_disease_body():
     vars_to_study = ['slope', 'chestpain', 'noofmajorvessels', 'restingBP',
                     'restingrelectro', 'fastingbloodsugar', 'serumcholestrol']
 
-    st.write("### House Sale Price Study")
+    st.write("### Heart Disease Study")
     st.info(
         f"#### Business Requirement 1\n"
         f"* The client is interested in discovering how listed variables are "
