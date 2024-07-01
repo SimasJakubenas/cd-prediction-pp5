@@ -136,5 +136,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
 # The code above was copied from the Churnometer Project from Code Institute 
-# with some adjustments
+# and was made to fit this project
