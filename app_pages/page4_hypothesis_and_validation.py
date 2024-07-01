@@ -22,4 +22,5 @@ def page4_hypothesis_and_validation_body():
     f"Heart Disease prone demografic based on this data. \n\n"
     )
 
-# The code above was copied from the Churnometer Project from Code Institute with some adjustments
+# The code above was copied from the Churnometer Project from Code Institute 
+# and was made to fit this project
