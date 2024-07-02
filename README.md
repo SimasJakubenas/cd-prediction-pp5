@@ -18,7 +18,7 @@ This project is an attempt to create a Machine Learning model t predict Heart Di
 
 * [Hypothesis and How To Validate](#hypothesis-and-how-to-validate) 💡
 
-* [Rationale](#rationale) ✍
+* [Rationale](#the-rationale-to-map-the-business-requirements-to-the-data-visualizations-and-ml-tasks) ✍
 
 * [ML Business Case](#ml-business-case) 📊
 
@@ -194,14 +194,14 @@ However this will become obsolete on 24th December 2024 so will need to be fixed
 ### BUG 1
 * Got this error whilst running stremlit
 
-    ![bug one](static/images/readme/page_5b.png)
+    ![bug one](static/images/readme/bug_1.png)
 
     Solved by installing protobug while running the command 'pip install protobuf==3.20'
 
 ### BUG 2
 * First plot in a series of plots didn't get desired colouring as displayed in the screenshot
 
-    ![bug one](static/images/readme/page_5b.png)
+    ![bug one](static/images/readme/bug_2.png)
 
     Solved by relocating plot_coloring function above the function that creates the plot
 
