@@ -1,3 +1,17 @@
+# Predicting Heart disease 
+
+![Dashboard Preview]()
+
+Link to the [live dashboard]() 
+
+This is my 5th Portfolio Project submission as part of my specialization module 'Predictive Analytics' for Code Institute's Diploma in Full Stack Development course.
+
+This project is an attempt to create a Machine Learning model t predict Heart Diseasee for a fictional client.
+
+---
+
+## Contents
+
 * [Dataset Content](#dataset-content) 🗃️
 
 * [Business Requirements](#business-requirements) 📋
@@ -61,7 +75,7 @@ Our fictitious client 'Silent Hearts' is a Healthcare provider based in India. T
 * Correlation Study
 
 3. Men aged 50-55 are most prone to Heart Disease.
-* Correlation Study
+* Filter data for male patients with Heart Disease and plot it accordn to age separated into appropriate bins.
 
 ## The rationale to map the business requirements to the Data Visualizations and ML tasks
 
@@ -107,18 +121,89 @@ The data suggests a classification where the target is the Heart Disease status.
 The inputs are clinical measurements and patient characteristics and the output is binary classification of absence/presence of Heard Disease.
 
 9. What are the criteria for the performance goal of the predictions?
-We agreed with the client an accuracy score of 98% and recall of atleast 97% on the train set as well as on the test set.
+We agreed with the client an accuracy score of 96% and recall of atleast 98% on the test sets 'HD present' value.
 
 10. How will the client benefit?
 By predicting Heart Disease to maximise the benefit of early discovery and increase the chance of recovery amongst patients.
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
 
+### Page 1 
+### Project Summary
+* Project Terms & Jargon
+* Describe Project Dataset
+* State Business Requirements
+
+The Project Summary page outlines the project's terminology and jargon, provides a description of the dataset, and details the business requirements. Users can gain a comprehensive overview of the project here, along with access to the readme file and a link to the dataset on Kaggle.
+
+The variable for the dataset are explained in detail:
+
+![dashboard one](static/images/readme/page_1.png)
+
+### Page 2
+### Heart Disease Study
+* This page fulfills Business Requirement 1. It shows target correlation with other variables.
+
+    * data inspection on house attributes
+    
+    ![dashboard two](static/images/readme/page_2.png)
+
+    * highlight the most correlated/relevant variables to Sale Price and the conclusions
+    
+    ![dashboard two](static/images/readme/page_2b.png)
+
+    * include plot to gain insight to Hypothesis #3
+    
+    ![dashboard two](static/images/readme/page_2c.png)
+
+### Page 3
+### Heart Disease Prediction
+* This page contains a Heart Disease predictor based on live inputs
+    
+    ![dashboard three](static/images/readme/page_3.png)
+
+    ![dashboard three](static/images/readme/page_3b.png)
+
+### Page 4
+### Hypothesis and validation
+* Initial hypothesis, conclusions and their validation methods are displayed on this page
+    
+    ![dashboard four](static/images/readme/page_4.png)
+
+### Page 5
+### Hypothesis and validation
+* ML learning approach and pipelines used are displayed n this page
+    
+    ![dashboard four](static/images/readme/page_5.png)
+
+    * most correlated features
+    
+    ![dashboard two](static/images/readme/page_5b.png)
+
+    * performance results
+    
+    ![dashboard two](static/images/readme/page_5b.png)
 
 ## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+Upon deployment, Heroku no longer supports the Python version 3.8 in it's Heroku-22 stack. 
+
+The stack was manually changed in the terminal to Heroku-20 using the following command: `heroku stack:set heroku-20 -a your-project-name`
+
+However this will become obsolete on 24th December 2024 so will need to be fixed.
+
+### BUG 1
+* Got this error whilst running stremlit
+
+    ![bug one](static/images/readme/page_5b.png)
+
+    Solved by installing protobug while running the command 'pip install protobuf==3.20'
+
+### BUG 2
+* First plot in a series of plots didn't get desired colouring as displayed in the screenshot
+
+    ![bug one](static/images/readme/page_5b.png)
+
+    Solved by relocating plot_coloring function above the function that creates the plot
 
 ## Deployment
 ### Heroku
@@ -136,27 +221,27 @@ By predicting Heart Disease to maximise the benefit of early discovery and incre
 
 
 ## Data Analysis and ML Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* [Pandas](https://pandas.pydata.org/) for data analysis, exploration, manipulation and visualization e.g.e create dataframes throughout the Jupyter Notebooks
+* [NumPy](https://numpy.org/) was used to process arrays and data 
+* [Matplotlib](https://matplotlib.org/) for graphs and plots
+* [Seaborn](https://seaborn.pydata.org/) to visualize the data in the Streamlit app with graphs and plots
+* [ML: Scikit-learn](https://scikit-learn.org/stable/) used when creating the ML pipeline, applying algorithms and feature engineering
 
 
 ## Credits and Acknowledgments 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- This project was adapted from Code Institute's ['Churnometer'](https://github.com/Code-Institute-Solutions/churnometer) walkthrough project.
+- Bulk of workflow and dashboard design was inspired by [Megan Odonohoe's work](https://github.com/modonohoe/data-analytics-housing-project).
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
-
+* Media are screenshots from my notebooks and dashboard.
 
 ### Acknowledgements
-* Thank the people that provided support through this project.
+* Alumni [Megan Odonohoe](https://github.com/modonohoe) for sharing her work with me, which was of invaluable help to me.
+* My mother for bringing me to this world and showing her continuos support along the way.
+* God almighty for granting me stength to endure and persevere the challenges this course has thrown at me.
+* Everyone at Code Institute for doing an awesome job and giving me a platform to make drastic changes in my life, I'm forever grateful!.
 
