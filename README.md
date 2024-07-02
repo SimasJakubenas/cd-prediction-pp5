@@ -1,6 +1,6 @@
 # Predicting Heart disease 
 
-![Dashboard Preview]()
+![Dashboard Preview](static/images/readme/responsive.png)
 
 Link to the [live dashboard](https://pp5-heart-disease-predict-8ca5a8fcd037.herokuapp.com/) 
 
